@@ -55,5 +55,18 @@ const INITIAL_ARTWORKS = [
     date: "2022-07-18",
     tags: ["Graduation", "Photooftheday", "Outdoorportrait"],
     views: 980
+  },
+  {
+    id: "upload-1928127811172",
+    title: "Harmony of Architecture and Nature",
+    category: "architectural-landscape-photography",
+    categoryLabel: "Architectural & Landscape Photography",
+    mediaType: "image",
+    src: "assets/images/artwork_5.jpg",
+    author: "Sahara Sumita",
+    description: "Captured from an elevated angle, this photograph showcases a striking modern brick-red building beautifully set against a lush, forest-covered hill. Warm sunlight bathes the scene, highlighting the contrast between the structure's rich terracotta tones and the vibrant green canopy behind it. Surrounded by tall evergreens and neat landscaping, the architecture seamlessly blends urban design with the tranquility of nature, creating a serene and picturesque environment.",
+    date: "2020-07-18",
+    tags: ["Architecture", "Building", "UrbanNature"],
+    views: 1836
   }
 ];
