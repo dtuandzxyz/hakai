@@ -72,12 +72,12 @@ const INITIAL_ARTWORKS = [
   {
     id: "upload-1909127617241",
     title: "Immature gamers and an unexpected outcome.",
-    category: "video",
+    category: "video-ytb",
     categoryLabel: "Video",
-    mediaType: "Video",
+    mediaType: "video",
     src: "assets/videos/artwork_6.mp4",
     author: "Tran Dinh Tuan",
-    description: "I teased and provoked some 'toxic kids' the first time I played Garena's Free Fire; the situation was so funny that I had to record a video to keep as a memento.",
+    description: "I teased and provoked some 'toxic kids' the first time I played Garena's *Free Fire*; the situation was so funny that I had to record a video to keep as a memento.",
     date: "2018-07-18",
     tags: ["FreeFire", "Gaming"],
     views: 1836
