@@ -1,6 +1,6 @@
 /* ==========================================================================
    HAKAI ART AGENCY - Default Initial Artworks
-   Owner: Trần Đình Tuấn
+   Owner: Tran Dinh Tuan
    ========================================================================== */
 
 const INITIAL_ARTWORKS = [
@@ -11,7 +11,7 @@ const INITIAL_ARTWORKS = [
     categoryLabel: "Digital Art",
     mediaType: "image",
     src: "assets/images/artwork_1.jpg",
-    author: "Trần Đình Tuấn",
+    author: "Tran Dinh Tuan",
     description: "A futuristic digital artwork created exclusively by HaKai Art Agency, featuring a high-contrast blend of neon gold aesthetics and cyber crimson lighting.",
     date: "2026-07-20",
     tags: ["Cyberpunk", "Neon", "Futuristic", "HaKai"],
@@ -24,7 +24,7 @@ const INITIAL_ARTWORKS = [
     categoryLabel: "3D Art",
     mediaType: "image",
     src: "assets/images/artwork_2.jpg",
-    author: "Trần Đình Tuấn",
+    author: "Tran Dinh Tuan",
     description: "A surreal 3D sculpture portraying metallic liquid gold swirling seamlessly with dark crystalline structures in cosmic deep space.",
     date: "2026-07-18",
     tags: ["3D Abstract", "Liquid Gold", "Surrealism"],
@@ -37,7 +37,7 @@ const INITIAL_ARTWORKS = [
     categoryLabel: "Visual Art",
     mediaType: "image",
     src: "assets/images/artwork_3.jpg",
-    author: "Trần Đình Tuấn",
+    author: "Tran Dinh Tuan",
     description: "A neo-cyberpunk samurai character illustration crafted with dramatic glowing gold ink strokes and deep atmospheric shadows.",
     date: "2026-07-15",
     tags: ["Character Art", "Samurai", "Gold Ink"],
