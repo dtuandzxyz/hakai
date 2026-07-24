@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       let mediaElementHTML = '';
       if (isVideo) {
-        mediaElementHTML = `<video class="artwork-media" src="${item.src}" preload="metadata" muted></video>`;
+        mediaElementHTML = `<video class="artwork-media" src="${item.src}" preload="metadata" muted autoplay loop playsinline></video>`;
       } else {
         mediaElementHTML = `<img class="artwork-media" src="${item.src}" alt="${item.title}" loading="lazy">`;
       }
@@ -310,7 +310,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const title = document.getElementById("upTitle").value.trim();
     const category = document.getElementById("upCategory").value;
-    const author = document.getElementById("upAuthor").value.trim() || "Trần Đình Tuấn";
+    const author = document.getElementById("upAuthor").value.trim() || "Tran Dinh Tuan";
     const desc = document.getElementById("upDesc").value.trim();
     const customDate = document.getElementById("upDate").value;
     const tagsInput = document.getElementById("upTags").value.trim();
@@ -325,7 +325,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         "visual-art": "Visual Art",
         "digital-art": "Digital Art",
         "3d-art": "3D Art",
-        "video": "Video & Animation"
+        "video-ytb": "Video & Animation"
       };
 
       const newArtwork = {
