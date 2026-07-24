@@ -310,8 +310,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const title = document.getElementById("upTitle").value.trim();
     const category = document.getElementById("upCategory").value;
-    const author = document.getElementById("upAuthor").value.trim() || "Tran Dinh Tuan";
+    const author = document.getElementById("upAuthor").value.trim() || "Trần Đình Tuấn";
     const desc = document.getElementById("upDesc").value.trim();
+    const customDate = document.getElementById("upDate").value;
     const tagsInput = document.getElementById("upTags").value.trim();
 
     const isVideo = selectedUploadFile.type.startsWith("video/");
@@ -336,7 +337,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         src: dataUrl,
         author: author,
         description: desc,
-        date: new Date().toISOString().split('T')[0],
+        date: customDate ? customDate : new Date().toISOString().split('T')[0],
         tags: tagsInput ? tagsInput.split(',').map(t => t.trim()) : ["HaKai"],
         isCustom: true
       };
