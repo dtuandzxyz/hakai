@@ -51,7 +51,7 @@ const INITIAL_ARTWORKS = [
     mediaType: "image",
     src: "assets/images/artwork_4.jpg",
     author: "Sahara Sumita",
-    description: "The photograph captures a radiant moment of a handsome young man on his graduation day. He is wearing a dark navy blue graduation gown elegantly styled with a white stole trimmed in red. In his left hand, he proudly holds a vibrant red diploma folder featuring the gold national emblem of Vietnam along with the text "BẰNG TỐT NGHIỆP", while gesturing toward this academic accomplishment with his right hand and a gentle smile. The softly blurred background of lush green foliage beautifully accentuates the subject in the center, evoking a sense of youthfulness, pride, and celebration for this major milestone.",
+    description: "The photograph captures a radiant moment of a handsome young man on his graduation day. He is wearing a dark navy blue graduation gown elegantly styled with a white stole trimmed in red. In his left hand, he proudly holds a vibrant red diploma folder featuring the gold national emblem of Vietnam along with the text 'BẰNG TỐT NGHIỆP', while gesturing toward this academic accomplishment with his right hand and a gentle smile. The softly blurred background of lush green foliage beautifully accentuates the subject in the center, evoking a sense of youthfulness, pride, and celebration for this major milestone.",
     date: "2022-07-18",
     tags: ["Graduation", "Photooftheday", "Outdoorportrait"],
     views: 980
