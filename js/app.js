@@ -1,6 +1,6 @@
 /* ==========================================================================
    HAKAI ART AGENCY - Main Application Logic
-   Owner: Trần Đình Tuấn
+   Owner: Tran Dinh Tuan
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           <h3 class="artwork-title">${item.title}</h3>
           <div class="artwork-author">
             <div class="author-avatar">${item.author ? item.author.charAt(0) : 'T'}</div>
-            <span>${item.author || "Trần Đình Tuấn"}</span>
+            <span>${item.author || "Tran Dinh Tuan"}</span>
           </div>
         </div>
       `;
@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     titleEl.textContent = item.title;
     categoryEl.textContent = item.categoryLabel || item.category;
-    authorEl.textContent = item.author || "Trần Đình Tuấn";
+    authorEl.textContent = item.author || "Tran Dinh Tuan";
     descEl.textContent = item.description || "Exclusive digital art created by HaKai Art Agency.";
     dateEl.textContent = item.date || new Date().toISOString().split('T')[0];
 
@@ -310,7 +310,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const title = document.getElementById("upTitle").value.trim();
     const category = document.getElementById("upCategory").value;
-    const author = document.getElementById("upAuthor").value.trim() || "Trần Đình Tuấn";
+    const author = document.getElementById("upAuthor").value.trim() || "Tran Dinh Tuan";
     const desc = document.getElementById("upDesc").value.trim();
     const tagsInput = document.getElementById("upTags").value.trim();
 
