@@ -325,9 +325,16 @@
           <textarea id="upDesc" class="form-textarea" rows="3" placeholder="Brief backstory, artistic concept, tools used..."></textarea>
         </div>
 
-        <div class="form-group">
-          <label class="form-label">Tags (Comma separated)</label>
-          <input type="text" id="upTags" class="form-input" placeholder="e.g. Neon, 3D, Cyber, HaKai">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div class="form-group">
+            <label class="form-label">Creation / Release Date</label>
+            <input type="date" id="upDate" class="form-input">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Tags (Comma separated)</label>
+            <input type="text" id="upTags" class="form-input" placeholder="e.g. Neon, 3D, Cyber, HaKai">
+          </div>
         </div>
 
         <button type="submit" class="btn-primary" style="width: 100%; margin-top: 1rem;">
