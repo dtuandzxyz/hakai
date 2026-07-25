@@ -91,7 +91,7 @@ const INITIAL_ARTWORKS = [
     src: "assets/videos/artwork_7.mp4",
     author: "Tran Dinh Tuan",
     description: "Summer is here—you definitely have to visit Vincom Viet Tri this summer!",
-    date: "2026-07-25",
+    date: "2020-07-01",
     tags: ["Chill", "Lofi"],
     views: 1836
   }
