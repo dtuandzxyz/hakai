@@ -81,5 +81,17 @@ const INITIAL_ARTWORKS = [
     date: "2018-07-18",
     tags: ["FreeFire", "Gaming"],
     views: 1836
+  },
+  {
+    id: "upload-2910271652812",
+    title: "Summer is here—you definitely have to visit Vincom Viet Tri this summer!",
+    category: "video-ytb",
+    categoryLabel: "Video",
+    mediaType: "video",
+    src: "assets/videos/artwork_7.mp4",
+    author: "Tran Dinh Tuan",
+    description: "Summer is here—you definitely have to visit Vincom Viet Tri this summer!"
+    tags: ["Chill", "Lofi"],
+    views: 1836
   }
 ];
