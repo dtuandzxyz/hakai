@@ -94,5 +94,18 @@ const INITIAL_ARTWORKS = [
     date: "2020-07-01",
     tags: ["Chill", "Lofi"],
     views: 1836
+  },
+  {
+    id: "hakai-008",
+    title: "Beautifull",
+    category: "girl",
+    categoryLabel: "Girl",
+    mediaType: "image",
+    src: "assets/images/artwork_8.jpg",
+    author: "Tran Dinh Tuan",
+    description: "",
+    date: "2021-07-20",
+    tags: ["Cyberpunk", "Neon", "Futuristic", "HaKai"],
+    views: 1420
   }
 ];
