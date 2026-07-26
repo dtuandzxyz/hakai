@@ -120,5 +120,18 @@ const INITIAL_ARTWORKS = [
     date: "2020-07-20",
     tags: ["GothicAnime", "GothicDress", "RedEyes", "HaKai"],
     views: 10000
+  },
+  {
+    id: "hakai-010",
+    title: "City Lights & Elegance (or Midnight Wanderer)",
+    category: "portrait-lifestyle-photography",
+    categoryLabel: "Portrait & Lifestyle Photography",
+    mediaType: "image",
+    src: "assets/images/artwork_10.jpg",
+    author: "Tran Dinh Tuan",
+    description: "This photograph captures an elegant and modern moment of a young woman set against a luxurious, European-inspired architectural backdrop at night. Wearing a chic short dress paired with a patterned scarf shawl, she stands gracefully by a staircase railing, exuding charm and confidence. The blend of warm lighting illuminating the steps, lush green palm foliage, and classic building design creates a romantic atmosphere filled with contemporary style.",
+    date: "2023-01-10",
+    tags: ["PortraitPhotography", "LifestylePhotography", "EuropeanVibes", "HaKai"],
+    views: 10000
   }
 ];
