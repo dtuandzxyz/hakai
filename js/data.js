@@ -138,7 +138,7 @@ const INITIAL_ARTWORKS = [
     id: "hakai-011",
     title: "Hmong Pride (or Highland Hype)",
     category: "portrait-photography",
-    categoryLabel: "Portrait Photography,
+    categoryLabel: "Portrait Photography",
     mediaType: "image",
     src: "assets/images/artwork_11.jpg",
     author: "Tran Dinh Tuan",
