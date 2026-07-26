@@ -133,5 +133,18 @@ const INITIAL_ARTWORKS = [
     date: "2023-01-10",
     tags: ["PortraitPhotography", "LifestylePhotography", "EuropeanVibes", "HaKai"],
     views: 10000
+  },
+  {
+    id: "hakai-011",
+    title: "Hmong Pride (or Highland Hype)",
+    category: "portrait-photography",
+    categoryLabel: "Portrait Photography,
+    mediaType: "image",
+    src: "assets/images/artwork_11.jpg",
+    author: "Tran Dinh Tuan",
+    description: "This low-angle photograph captures a young man from behind, looking out towards a scenic mountain valley. He is wearing a custom-designed sleeveless black vest that features striking red embroidery of the word "Hmoob" (Hmong) beneath crossed traditional swords. The subject’s unique pixelated sunglasses and relaxed pose with hands in pockets create a modern, confident vibe, blending cultural identity with contemporary streetwear.",
+    date: "2023-01-10",
+    tags: ["PortraitPhotography", "HmongCulture", "CutureAndStyle", "UniqueFashion"],
+    views: 10000
   }
 ];
