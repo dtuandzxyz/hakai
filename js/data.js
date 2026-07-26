@@ -107,5 +107,18 @@ const INITIAL_ARTWORKS = [
     date: "2021-07-20",
     tags: ["Cyberpunk", "Neon", "Futuristic", "HaKai"],
     views: 1420
+  },
+  {
+    id: "hakai-009",
+    title: "Crimson Eye's Curse",
+    category: "gothic-anime",
+    categoryLabel: "Gothic Anime",
+    mediaType: "image",
+    src: "assets/images/artwork_9.jpg",
+    author: "Tran Dinh Tuan",
+    description: "An unsettling anime-style illustration in the Gothic Horror genre, featuring a young woman with deep red hair and a dark crimson gown in a dimly lit, vintage living room. The scene is dominated by unsettling body horror: her left eye has mutated into a monstrous red vortex, blood drips from her mouth, and her decayed left hand exposes bone. Grotesque, fleshy red tentacles covered in multiple unblinking eyes sprout from behind her, creating an oppressive atmosphere of Eldritch dread as she stares at the viewer alongside a silent grandfather clock and bookshelf.",
+    date: "2020-07-20",
+    tags: ["GothicAnime", "GothicDress", "RedEyes", "HaKai"],
+    views: 10000
   }
 ];
